@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![hotel-california (2)](https://user-images.githubusercontent.com/44974863/95616191-146a6a80-0a72-11eb-8222-e8396431d2a5.jpg)
+
 
 ## Available Scripts
 
