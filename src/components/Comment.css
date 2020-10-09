@@ -1,0 +1,86 @@
+.comment {
+  position: relative;
+  margin-bottom: -20px;
+}
+.comment-img {
+  position: absolute;
+  z-index: -4;
+  height: 100%;
+}
+
+.comment-title > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.comment-title > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment-w {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.7rem;
+}
+
+.comment-w > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  padding: 0.4rem;
+}
+.comment-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 0.5;
+  padding: 1.2rem;
+}
+
+.comments-img {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comment-b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment-button {
+  width: 250px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  background-color: gray;
+}
+
+@media screen and (max-width: 950px) {
+  .comment-title > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+}

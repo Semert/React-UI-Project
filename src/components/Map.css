@@ -1,0 +1,23 @@
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logos {
+  width: 300px;
+  margin: 5px;
+}
+
+.maps {
+  width: 100%;
+  height: 100%;
+}
+
+.maplogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(132, 177, 214);
+}

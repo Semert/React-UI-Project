@@ -1,0 +1,154 @@
+* {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 25px;
+}
+.hotel {
+  width: 300px;
+  position: absolute;
+}
+.navbar {
+  position: relative;
+  padding-bottom: 70px;
+  height: 500px;
+}
+.navbar > img {
+  width: 100%;
+  height: fit-content;
+  z-index: -10;
+  position: absolute;
+  top: -100px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(10, 10, 10, 0.2);
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+}
+
+.list > li {
+  padding: 1rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.active {
+  border: 2px solid black;
+  background-color: rgba(10, 10, 10, 0.52);
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 7px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.header > p {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  margin-bottom: 70px;
+  font-weight: 700;
+  width: 900px;
+  font-size: 30px;
+  font-family: sans-serif;
+
+  color: #fff;
+}
+
+.header > button {
+  height: 70px;
+  width: 300px;
+  color: black;
+  background-color: blanchedalmond;
+}
+
+.navbar-hidden {
+  display: none;
+}
+
+@media screen and (max-width: 1500px) {
+  .navbar-hidden {
+    display: flex;
+    font-weight: 700;
+    color: white;
+    justify-content: space-around;
+    font-size: 30px;
+    text-align: center;
+  }
+  .list > li {
+    display: none;
+  }
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(10, 10, 10, 0.2);
+    position: fixed;
+    z-index: 9999;
+    width: calc(100%-70px);
+  }
+  .hotel {
+    width: 200px;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .navbar-hidden {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.87);
+  }
+  .header > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    font-weight: 600;
+    color: #fff;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .hotel {
+    width: 150px;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    font-weight: 100;
+    color: #fff;
+    font-size: 15px;
+  }
+  .header > button {
+    height: 50px;
+    width: 250px;
+    color: black;
+    background-color: blanchedalmond;
+  }
+}

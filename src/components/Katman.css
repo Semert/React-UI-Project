@@ -1,0 +1,64 @@
+.katman {
+  position: relative;
+  height: 800px;
+  margin-bottom: -20px;
+  margin-top: -20px;
+}
+.katman-img {
+  position: absolute;
+  z-index: -4;
+  height: 100%;
+  width: 100%;
+}
+
+.rate-hidden {
+  display: none;
+}
+
+.katman-title > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.katman-title > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+@media screen and (max-width: 1200px) {
+  .rate-hidden {
+    display: inline;
+  }
+
+  .rate-hidden > p {
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+  }
+
+  .katman {
+    background-color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+  }
+
+  .katman-rate {
+    display: inline;
+    position: absolute;
+    bottom: 100px;
+  }
+  .katman-img {
+    display: none;
+    vertical-align: middle;
+  }
+}

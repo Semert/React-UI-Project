@@ -1,0 +1,61 @@
+.contact {
+  position: relative;
+}
+.contact-img {
+  position: absolute;
+  z-index: -4;
+  height: 100%;
+}
+
+.contact-title > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.contact-title > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+.contact-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.c1 {
+  width: 300px;
+  height: 150px;
+  padding: 100px;
+}
+
+.c1 > label,
+.c1 > input {
+  margin: 10px;
+  width: 350px;
+  height: 40px;
+}
+
+.c1 > button {
+  margin: 10px;
+  margin-top: 25px;
+  height: 60px;
+  width: 360px;
+  background-color: gray;
+}
+
+@media screen and (max-width: 950px) {
+  .contact-title > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+}
