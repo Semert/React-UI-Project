@@ -1,5 +1,7 @@
 ## Available Scripts
 
+https://uireactproject.netlify.app/
+
 # Getting Started
 
 ### `npm install`
